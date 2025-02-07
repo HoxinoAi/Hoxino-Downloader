@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "下载拦截器",
+  "version": "1.0",
+  "description": "拦截下载请求并发送到本地下载器",
+  "icons": {
+    "16": "icons/hoxino16.png",
+    "32": "icons/hoxino32.png",
+    "48": "icons/hoxino48.png",
+    "128": "icons/hoxino128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/hoxino16.png",
+      "32": "icons/hoxino32.png",
+      "48": "icons/hoxino48.png",
+      "128": "icons/hoxino128.png"
+    }
+  },
+  "permissions": [
+    "downloads",
+    "webRequest",
+    "tabs",
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  }
+}

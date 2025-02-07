@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            width: 300px;
+            padding: 15px;
+            font-family: 'Microsoft YaHei', sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .title {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 30px;
+        }
+
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            transition: .4s;
+            border-radius: 30px;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 22px;
+            width: 22px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            transition: .4s;
+            border-radius: 50%;
+        }
+
+        input:checked + .slider {
+            background-color: #2196F3;
+        }
+
+        input:checked + .slider:before {
+            transform: translateX(30px);
+        }
+
+        .status {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        /* 添加过滤池管理样式 */
+        .filter-section {
+            width: 100%;
+            margin-top: 20px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+        }
+
+        .filter-title {
+            font-size: 14px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .filter-input {
+            width: calc(100% - 70px);
+            padding: 6px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-right: 5px;
+        }
+
+        .filter-add {
+            padding: 6px 12px;
+            background-color: #2196F3;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .filter-add:hover {
+            background-color: #1976D2;
+        }
+
+        .filter-list {
+            margin-top: 10px;
+            max-height: 150px;
+            overflow-y: auto;
+            width: 100%;
+        }
+
+        .filter-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px;
+            background-color: #f8f9fa;
+            margin-bottom: 5px;
+            border-radius: 4px;
+        }
+
+        .filter-remove {
+            color: #dc3545;
+            cursor: pointer;
+            padding: 2px 6px;
+            background: none;
+            border: none;
+            font-size: 16px;
+        }
+
+        .filter-remove:hover {
+            color: #bd2130;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">下载拦截器</div>
+        <label class="switch">
+            <input type="checkbox" id="toggleSwitch" checked>
+            <span class="slider"></span>
+        </label>
+        <div class="status" id="statusText">已启用</div>
+
+        <!-- 添加过滤池管理部分 -->
+        <div class="filter-section">
+            <div class="filter-title">URL过滤规则</div>
+            <div style="display: flex; margin-bottom: 10px;">
+                <input type="text" id="filterInput" class="filter-input" placeholder="输入关键词...">
+                <button id="addFilter" class="filter-add">添加</button>
+            </div>
+            <div id="filterList" class="filter-list">
+                <!-- 过滤规则列表将在这里动态生成 -->
+            </div>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

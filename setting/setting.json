@@ -1,0 +1,7 @@
+{
+    "max_tasks": 4,
+    "threads": "动态优化",
+    "download_path": "C:/Users/Administrator/Desktop",
+    "proxy": true,
+    "proxy_address": "127.0.0.1:7890"
+}
