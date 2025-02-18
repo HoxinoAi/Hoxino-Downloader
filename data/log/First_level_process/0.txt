@@ -1,0 +1,58 @@
+<<<<<<< HEAD
+[2025-02-18 21:53:49] 线程 0 已创建
+[2025-02-18 21:53:49] 开始处理URL: https://github.com/sxyazi/yazi/releases/download/v25.2.11/yazi-aarch64-pc-windows-msvc.zip
+[2025-02-18 21:53:49] 开始新的下载任务
+[2025-02-18 21:53:49] 调用 Proxy judgment 函数
+[2025-02-18 21:53:49] DEBUG - thread_id: 0
+[2025-02-18 21:53:49] DEBUG - file_name: yazi-aarch64-pc-windows-msvc.zip
+[2025-02-18 21:53:49] 准备导入 ProxyJudgment 类
+[2025-02-18 21:53:49] 准备创建 ProxyJudgment 实例
+[2025-02-18 21:53:49] 传入参数 - thread_id: 0, file_name: yazi-aarch64-pc-windows-msvc.zip
+[2025-02-18 21:53:49] 初始化 ProxyJudgment，线程ID: 0，文件名: yazi-aarch64-pc-windows-msvc.zip
+[2025-02-18 21:53:49] ProxyJudgment 实例创建成功
+[2025-02-18 21:53:49] 开始代理判断，URL: https://github.com/sxyazi/yazi/releases/download/v25.2.11/yazi-aarch64-pc-windows-msvc.zip, 线程ID: 0, 文件名: yazi-aarch64-pc-windows-msvc.zip
+[2025-02-18 21:53:49] 代理已启用，调用 Proxy size retrieval 函数
+[2025-02-18 21:53:49] 调用代理尺寸获取函数，线程ID: 0, 文件名: yazi-aarch64-pc-windows-msvc.zip
+[2025-02-18 21:53:50] 初始化 ProxySizeRetrieval - 线程ID: 0, 文件名: yazi-aarch64-pc-windows-msvc.zip
+[2025-02-18 21:53:50] 开始检索文件大小 - URL: https://github.com/sxyazi/yazi/releases/download/v25.2.11/yazi-aarch64-pc-windows-msvc.zip, 文件名: yazi-aarch64-pc-windows-msvc.zip
+[2025-02-18 21:53:50] 尝试获取文件大小 (HEAD请求通过代理, 重试次数: 0)
+[2025-02-18 21:53:51] 响应状态码: 200
+[2025-02-18 21:53:51] 响应头: {'Connection': 'keep-alive', 'Content-Length': '8081691', 'Content-Type': 'application/octet-stream', 'Last-Modified': 'Tue, 11 Feb 2025 11:26:31 GMT', 'ETag': '"0x8DD4A8EEEF3A244"', 'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0', 'x-ms-request-id': '96695f14-c01e-0057-5b86-7e4f66000000', 'x-ms-version': '2025-01-05', 'x-ms-creation-time': 'Tue, 11 Feb 2025 11:26:31 GMT', 'x-ms-blob-content-md5': 'q68Y8pRGtrK0okWXbZYpoQ==', 'x-ms-lease-status': 'unlocked', 'x-ms-lease-state': 'available', 'x-ms-blob-type': 'BlockBlob', 'Content-Disposition': 'attachment; filename=yazi-aarch64-pc-windows-msvc.zip', 'x-ms-server-encrypted': 'true', 'Via': '1.1 varnish, 1.1 varnish', 'Fastly-Restarts': '1', 'Accept-Ranges': 'bytes', 'Date': 'Tue, 18 Feb 2025 13:53:51 GMT', 'Age': '225', 'X-Served-By': 'cache-iad-kcgs7200024-IAD, cache-nrt-rjtf7700034-NRT', 'X-Cache': 'HIT, HIT', 'X-Cache-Hits': '20, 1', 'X-Timer': 'S1739886831.187531,VS0,VE2'}
+[2025-02-18 21:53:51] 从响应头获取到文件大小: 8081691
+[2025-02-18 21:53:51] 已更新文件大小到数据库: 8081691 bytes
+[2025-02-18 21:53:51] 开始调用线程数量确定函数 - thread_id: 0
+[2025-02-18 21:53:51] ThreadDetermination 初始化 - thread_id: 0, url: https://github.com/sxyazi/yazi/releases/download/v25.2.11/yazi-aarch64-pc-windows-msvc.zip, file_name: yazi-aarch64-pc-windows-msvc.zip
+[2025-02-18 21:53:51] 开始确定线程数量 - thread_id: 0, file_name: yazi-aarch64-pc-windows-msvc.zip
+[2025-02-18 21:53:51] 执行新的线程分配逻辑
+[2025-02-18 21:53:51] 使用动态优化模式
+[2025-02-18 21:53:52] 动态优化计算得到线程数: 4
+[2025-02-18 21:53:52] 成功写入线程数 4 到数据库
+[2025-02-18 21:53:52] 开始将文件分割为 4 个分片
+[2025-02-18 21:53:52] 使用文件名: yazi-aarch64-pc-windows-msvc.zip
+[2025-02-18 21:53:52] 生成分片 0: 起始=0, 结束=2020421, 大小=2020422
+[2025-02-18 21:53:52] 生成分片 1: 起始=2020422, 结束=4040843, 大小=2020422
+[2025-02-18 21:53:52] 生成分片 2: 起始=4040844, 结束=6061265, 大小=2020422
+[2025-02-18 21:53:52] 生成分片 3: 起始=6061266, 结束=8081690, 大小=2020425
+[2025-02-18 21:53:52] 分片信息已保存到数据库
+[2025-02-18 21:53:52] 一级线程 0 初始化下载配置
+[2025-02-18 21:53:52] 文件名: yazi-aarch64-pc-windows-msvc.zip
+[2025-02-18 21:53:52] 临时目录: data\temp\task_0
+[2025-02-18 21:53:52] 下载模式: proxy
+[2025-02-18 21:53:52] 读取到 4 个分片信息
+[2025-02-18 21:53:52] 启动二级线程 0
+[2025-02-18 21:53:52] 启动二级线程 1
+[2025-02-18 21:53:52] 启动二级线程 2
+[2025-02-18 21:53:52] 启动二级线程 3
+[2025-02-18 21:53:52] 启动进度管理 (文件名: yazi-aarch64-pc-windows-msvc.zip)
+[2025-02-18 21:53:52] 启动合并监控
+[2025-02-18 21:53:52] 下载配置完成，临时目录: data\temp\task_0
+[2025-02-18 21:53:52] 线程 0 任务完成
+=======
+[2025-02-07 13:42:44] 二级线程 1 请求启动失败: [Errno 2] No such file or directory: 'data\\log\\Second_level_process\\0\\1.txt'
+[2025-02-07 13:42:50] 二级线程 4 请求启动失败: [Errno 2] No such file or directory: 'data\\log\\Second_level_process\\0\\4.txt'
+[2025-02-07 13:42:50] 二级线程 0 请求启动失败: [Errno 2] No such file or directory: 'data\\log\\Second_level_process\\0\\0.txt'
+[2025-02-07 13:42:50] 二级线程 3 请求启动失败: [Errno 2] No such file or directory: 'data\\log\\Second_level_process\\0\\3.txt'
+[2025-02-07 13:42:52] 二级线程 6 请求启动失败: [Errno 2] No such file or directory: 'data\\log\\Second_level_process\\0\\6.txt'
+[2025-02-07 13:42:57] 二级线程 2 请求启动失败: [Errno 2] No such file or directory: 'data\\log\\Second_level_process\\0\\2.txt'
+[2025-02-07 13:43:04] 二级线程 5 请求启动失败: [Errno 2] No such file or directory: 'data\\log\\Second_level_process\\0\\5.txt'
+>>>>>>> 2d5d9d9cf12d707f2c5354c07328162bc648e520

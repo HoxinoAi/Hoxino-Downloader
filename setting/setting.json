@@ -1,0 +1,16 @@
+<<<<<<< HEAD
+{
+    "max_tasks": 4,
+    "threads": "动态优化",
+    "download_path": "C:/Users/Administrator/Desktop",
+    "proxy": true,
+    "proxy_address": "127.0.0.1:7890"
+=======
+{
+    "max_tasks": 4,
+    "threads": "动态优化",
+    "download_path": "C:/Users/Administrator/Desktop",
+    "proxy": true,
+    "proxy_address": "127.0.0.1:7890"
+>>>>>>> 2d5d9d9cf12d707f2c5354c07328162bc648e520
+}

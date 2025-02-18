@@ -1,0 +1,15 @@
+[2025-02-18 13:29:50] 选中行: 0
+[2025-02-18 13:29:50] 获取到文件名: https://github.com/wonderfulMorty/stuScoreManaSys/archive/refs/heads/master.zip
+[2025-02-18 13:29:50] 该行所有列的内容: ['https://github.com/wonderfulMorty/stuScoreManaSys/archive/refs/heads/master.zip', '代理服务器故障，请检查代理，或许是资源不允许代理']
+[2025-02-18 13:29:50] 存储的额外数据 - thread_id: None, url: None
+[2025-02-18 13:29:50] 未找到任务信息: file_name=https://github.com/wonderfulMorty/stuScoreManaSys/archive/refs/heads/master.zip
+[2025-02-18 21:53:52] 选中行: 0
+[2025-02-18 21:53:52] 获取到文件名: yazi-aarch64-pc-windows-msvc.zip
+[2025-02-18 21:53:52] 该行所有列的内容: ['yazi-aarch64-pc-windows-msvc.zip', '7.7 MB', '下载中', '0.0%', '2025-02-18 21:53:49']
+[2025-02-18 21:53:52] 存储的额外数据 - thread_id: 0, url: None
+[2025-02-18 21:53:52] 选中任务: file_name=yazi-aarch64-pc-windows-msvc.zip, thread_id=0
+[2025-02-18 21:54:08] 选中行: 0
+[2025-02-18 21:54:08] 获取到文件名: yazi-aarch64-pc-windows-msvc.zip
+[2025-02-18 21:54:08] 该行所有列的内容: ['yazi-aarch64-pc-windows-msvc.zip', '7.7 MB', '已完成', '100.0%', '2025-02-18 21:53:56']
+[2025-02-18 21:54:08] 存储的额外数据 - thread_id: 0, url: None
+[2025-02-18 21:54:08] 未找到任务信息: file_name=yazi-aarch64-pc-windows-msvc.zip

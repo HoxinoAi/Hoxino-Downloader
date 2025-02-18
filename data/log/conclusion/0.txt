@@ -1,0 +1,2 @@
+[2025-02-18 21:53:56] 开始处理任务: yazi-aarch64-pc-windows-msvc.zip
+[2025-02-18 21:53:56] 成功将任务移动到已完成: yazi-aarch64-pc-windows-msvc.zip
