@@ -1,7 +1,0 @@
-[2025-02-07 13:42:44] 二级线程 1 请求启动失败: [Errno 2] No such file or directory: 'data\\log\\Second_level_process\\0\\1.txt'
-[2025-02-07 13:42:50] 二级线程 4 请求启动失败: [Errno 2] No such file or directory: 'data\\log\\Second_level_process\\0\\4.txt'
-[2025-02-07 13:42:50] 二级线程 0 请求启动失败: [Errno 2] No such file or directory: 'data\\log\\Second_level_process\\0\\0.txt'
-[2025-02-07 13:42:50] 二级线程 3 请求启动失败: [Errno 2] No such file or directory: 'data\\log\\Second_level_process\\0\\3.txt'
-[2025-02-07 13:42:52] 二级线程 6 请求启动失败: [Errno 2] No such file or directory: 'data\\log\\Second_level_process\\0\\6.txt'
-[2025-02-07 13:42:57] 二级线程 2 请求启动失败: [Errno 2] No such file or directory: 'data\\log\\Second_level_process\\0\\2.txt'
-[2025-02-07 13:43:04] 二级线程 5 请求启动失败: [Errno 2] No such file or directory: 'data\\log\\Second_level_process\\0\\5.txt'
