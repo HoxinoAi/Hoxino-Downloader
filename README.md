@@ -1,6 +1,8 @@
 # Hoxino-Downloader
 一个出色的多任务多线程下载器
 
+点击：https://github.com/HoxinoAi/Hoxino-Downloader/releases/tag/Downloader可以查看到发布页面
+
 
 ![image](https://github.com/user-attachments/assets/d0e6ddbf-6873-46e9-893a-3f4c4e042286)
 浏览器插件安装流程：
