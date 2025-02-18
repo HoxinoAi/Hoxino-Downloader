@@ -6,7 +6,9 @@
 浏览器插件安装流程：
 ![image](https://github.com/user-attachments/assets/4782cd5b-1909-4f0e-8bda-148e2001078b)
 ![image](https://github.com/user-attachments/assets/bb860a1a-dfd6-479e-9c0f-0d87ebb024a7)
+
 如果没有就是要打开开发者模式
+
 ![image](https://github.com/user-attachments/assets/fd4d5a8f-54ae-47f6-bd0c-26b26fa7aa50)
 安装目录下：浏览器拓展/
 安装完成后会有：
